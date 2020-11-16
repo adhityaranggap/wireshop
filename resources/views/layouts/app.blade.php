@@ -86,7 +86,8 @@
         </main>
     </div>
     <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="{{ config('services.midtrans.clientKey') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- turbolink -->
+    <script src="{{ mix('js/app.js') }}"></script>
    
 </body>
 </html>
