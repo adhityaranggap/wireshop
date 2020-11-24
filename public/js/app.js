@@ -37370,3 +37370,6 @@ module.exports = __webpack_require__(/*! /Users/rangga/Project/wireshop/resource
 /***/ })
 
 /******/ });
+
+var Turbolinks = require("turbolinks")
+Turbolinks.start()
